@@ -1,7 +1,5 @@
-import pytest
 import httpx
 import respx
-from pathlib import Path
 from scrapers.isometric import IsometricScraper
 
 
