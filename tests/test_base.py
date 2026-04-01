@@ -2,7 +2,6 @@ import json
 import pytest
 import respx
 import httpx
-from pathlib import Path
 from scrapers.base import BaseScraper
 
 
