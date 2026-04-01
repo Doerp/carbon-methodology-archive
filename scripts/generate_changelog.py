@@ -9,6 +9,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 import anthropic
+from anthropic.types import TextBlock
 
 
 def generate_entry(changes: list[dict], today: str) -> str:
@@ -34,7 +35,10 @@ def generate_entry(changes: list[dict], today: str) -> str:
             }
         ],
     )
-    return message.content[0].text.strip()
+    block = message.content[0]
+    if not isinstance(block, TextBlock):
+        raise ValueError(f"Unexpected response block type: {type(block)}")
+    return block.text.strip()
 
 
 def prepend_entry(entry: str, changelog_path: Path) -> None:
