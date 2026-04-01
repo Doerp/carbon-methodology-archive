@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Generate a CHANGELOG.md entry for today's sync using Claude."""
+from __future__ import annotations
 import json
 import os
 import sys
