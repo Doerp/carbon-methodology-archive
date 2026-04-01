@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import re
+from datetime import datetime, timezone
 from pathlib import Path
 
 from bs4 import BeautifulSoup, Tag
@@ -95,6 +96,7 @@ class VerraScraper(BaseScraper):
                 "registry": "verra",
                 "page_url": page_url,
                 "versions": versions,
+                "last_synced": datetime.now(timezone.utc).isoformat(),
             }
         )
         self.save_metadata(metadata_path, metadata)

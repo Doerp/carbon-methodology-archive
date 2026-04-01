@@ -82,6 +82,7 @@ def test_sync_methodology_downloads_new_file(tmp_path):
     assert metadata["registry"] == "verra"
     assert len(metadata["versions"]) == 1
     assert metadata["versions"][0]["is_current"] is True
+    assert "last_synced" in metadata
 
 
 @respx.mock
@@ -127,3 +128,21 @@ def test_sync_methodology_re_downloads_when_pdf_changes(tmp_path):
     result = scraper.sync_methodology(page_url)
 
     assert len(result["changed"]) == 1
+
+
+def test_sync_all_syncs_all_demo_methodologies(tmp_path, monkeypatch):
+    scraper = VerraScraper(tmp_path)
+    calls = []
+
+    def fake_sync(page_url):
+        calls.append(page_url)
+        return {"id": "VM0000", "changed": []}
+
+    monkeypatch.setattr(scraper, "sync_methodology", fake_sync)
+
+    results = scraper.sync_all()
+
+    assert len(results) == 3
+    assert len(calls) == 3
+    from scrapers.verra import DEMO_METHODOLOGY_URLS
+    assert calls == DEMO_METHODOLOGY_URLS
