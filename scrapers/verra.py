@@ -3,7 +3,7 @@ from __future__ import annotations
 import re
 from pathlib import Path
 
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 
 from .base import BaseScraper
 
@@ -44,8 +44,10 @@ class VerraScraper(BaseScraper):
         soup = BeautifulSoup(html, "lxml")
         docs = []
         for a in soup.find_all("a", href=re.compile(r"https://verra\.org/documents/")):
-            url = a["href"].rstrip("/") + "/"
-            label = a.get_text(strip=True) or a.get("title", url)
+            if not isinstance(a, Tag):
+                continue
+            url = str(a["href"]).rstrip("/") + "/"
+            label = a.get_text(strip=True) or str(a.get("title", url))
             docs.append({"label": label, "url": url})
         if docs:
             docs[0]["is_current"] = True

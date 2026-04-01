@@ -1,7 +1,6 @@
 import pytest
 import httpx
 import respx
-from pathlib import Path
 from scrapers.verra import VerraScraper
 
 
