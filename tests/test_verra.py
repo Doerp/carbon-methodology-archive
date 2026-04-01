@@ -1,7 +1,7 @@
 import pytest
 import httpx
 import respx
-from scrapers.verra import VerraScraper
+from scrapers.verra import VerraScraper, DEMO_METHODOLOGY_URLS
 
 
 SAMPLE_METHODOLOGY_PAGE = """
@@ -144,5 +144,4 @@ def test_sync_all_syncs_all_demo_methodologies(tmp_path, monkeypatch):
 
     assert len(results) == 3
     assert len(calls) == 3
-    from scrapers.verra import DEMO_METHODOLOGY_URLS
     assert calls == DEMO_METHODOLOGY_URLS
