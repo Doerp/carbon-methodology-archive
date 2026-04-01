@@ -12,9 +12,14 @@ import anthropic
 from anthropic.types import TextBlock
 
 
-def generate_entry(changes: list[dict], today: str) -> str:
+def generate_entry(
+    changes: list[dict],
+    today: str,
+    client: anthropic.Anthropic | None = None,
+) -> str:
     """Call Claude to write a concise CHANGELOG entry for the given changes."""
-    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+    if client is None:
+        client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
     message = client.messages.create(
         model="claude-opus-4-6",
@@ -58,7 +63,7 @@ def prepend_entry(entry: str, changelog_path: Path) -> None:
 
 
 def main() -> None:
-    output_dir = Path(".")
+    output_dir = Path(__file__).parent.parent
     changes_file = output_dir / ".changes.json"
 
     if not changes_file.exists():
@@ -69,6 +74,10 @@ def main() -> None:
     if not changes:
         print("No changes to document.")
         return
+
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        print("Error: ANTHROPIC_API_KEY environment variable not set.")
+        sys.exit(1)
 
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     print(f"Generating changelog for {len(changes)} change(s)...")

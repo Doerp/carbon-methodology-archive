@@ -40,4 +40,4 @@ def run_sync(output_dir: Path) -> list[dict]:
 
 
 if __name__ == "__main__":
-    run_sync(Path("."))
+    run_sync(Path(__file__).parent.parent)
