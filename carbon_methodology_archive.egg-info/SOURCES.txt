@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+carbon_methodology_archive.egg-info/PKG-INFO
+carbon_methodology_archive.egg-info/SOURCES.txt
+carbon_methodology_archive.egg-info/dependency_links.txt
+carbon_methodology_archive.egg-info/requires.txt
+carbon_methodology_archive.egg-info/top_level.txt
+scrapers/__init__.py
