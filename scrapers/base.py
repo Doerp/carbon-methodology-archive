@@ -32,10 +32,15 @@ class BaseScraper:
             self._client.close()
             self._client = None
 
-    def __enter__(self):
+    def __enter__(self) -> "BaseScraper":
         return self
 
-    def __exit__(self, *args):
+    def __exit__(
+        self,
+        exc_type: type[BaseException] | None,
+        exc_val: BaseException | None,
+        exc_tb: object,
+    ) -> None:
         self.close()
 
     @staticmethod

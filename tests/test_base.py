@@ -1,5 +1,7 @@
 import json
 import pytest
+import respx
+import httpx
 from pathlib import Path
 from scrapers.base import BaseScraper
 
@@ -57,3 +59,34 @@ def test_save_metadata_creates_parent_dirs(tmp_path):
     scraper.save_metadata(path, {"key": "value"})
     assert path.exists()
     assert json.loads(path.read_text())["key"] == "value"
+
+
+@respx.mock
+def test_fetch_bytes_returns_response_content(tmp_path):
+    respx.get("https://example.com/file.pdf").mock(
+        return_value=httpx.Response(200, content=b"%PDF-content")
+    )
+    scraper = BaseScraper(tmp_path)
+    assert scraper.fetch_bytes("https://example.com/file.pdf") == b"%PDF-content"
+    scraper.close()
+
+
+@respx.mock
+def test_fetch_bytes_raises_on_http_error(tmp_path):
+    respx.get("https://example.com/missing").mock(
+        return_value=httpx.Response(404)
+    )
+    scraper = BaseScraper(tmp_path)
+    with pytest.raises(httpx.HTTPStatusError):
+        scraper.fetch_bytes("https://example.com/missing")
+    scraper.close()
+
+
+def test_context_manager_closes_client(tmp_path):
+    """Verify __exit__ calls close() so the HTTP client is released."""
+    with BaseScraper(tmp_path) as scraper:
+        # Trigger client creation
+        _ = scraper.client
+        assert scraper._client is not None
+    # After exiting context manager, client should be None
+    assert scraper._client is None
