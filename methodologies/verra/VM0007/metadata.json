@@ -1,0 +1,152 @@
+{
+  "id": "VM0007",
+  "registry": "verra",
+  "page_url": "https://verra.org/methodologies/vm0007-redd-methodology-framework-redd-mf-v1-8/",
+  "versions": [
+    {
+      "label": "Download",
+      "url": "https://verra.org/documents/vm0007-redd-methodology-framework-v1-8-clean/",
+      "hash": "sha256:68bb94746c4c4adb40acbe314a3f927e2a3a57af9bf4916afdbcf532ea0b50e6",
+      "is_current": true
+    },
+    {
+      "label": "Frequently Asked Questions for Avoided Deforestation Partners VCS REDD Methodology Modules (VM0007, v1.0) (Climate Focus)",
+      "url": "https://verra.org/documents/faqs-for-avoided-deforestation-partners-vcs-redd-methodology-modules/",
+      "hash": "sha256:1a5760bf0d68ddc00627f527fbf78bbb7d2e8ac5c6414430e761b7205dcb7ea6",
+      "is_current": false
+    },
+    {
+      "label": "VM0007 REDD+ Methodology Framework (REDD+MF), v1.8",
+      "url": "https://verra.org/documents/vm0007-redd-methodology-framework-v1-8-clean/",
+      "hash": "sha256:68bb94746c4c4adb40acbe314a3f927e2a3a57af9bf4916afdbcf532ea0b50e6",
+      "is_current": false
+    },
+    {
+      "label": "VM0007 REDD+ Methodology Framework, v1.8 – Greenlined",
+      "url": "https://verra.org/documents/vm0007-redd-methodology-framework-v1-8-greenlined/",
+      "hash": "sha256:fd2e64174c30812d779cdfb89b53f293fd2c9974ac95a744ebdbc2a7a88302fc",
+      "is_current": false
+    },
+    {
+      "label": "VM0007 REDD+ Methodology Framework (REDD+MF), v1.7",
+      "url": "https://verra.org/documents/vm0007-redd-methodology-framework-reddmf-v1-7/",
+      "hash": "sha256:66f5aa9977749bf3c4b02d5713bbfafd5f7bb5ad164e689011f3a296ba160cd3",
+      "is_current": false
+    },
+    {
+      "label": "VM0007 REDD+ Methodology Framework (REDD+MF), v1.6",
+      "url": "https://verra.org/documents/vm0007-redd-methodology-framework-reddmf-v1-6/",
+      "hash": "sha256:164c894093d3de1350d55482607aab5e958adbdbb37ec7d33f2d5add1062d0a5",
+      "is_current": false
+    },
+    {
+      "label": "First Assessment Report forVM0007, v1.6",
+      "url": "https://verra.org/documents/vm0007-v1-6-first-assessment-report/",
+      "hash": "sha256:c76ba3a8fea79c5e7b31b07f9b83ef9c73e6e9295e57e22ed63a1e948cb5d030",
+      "is_current": false
+    },
+    {
+      "label": "Second Assessment Report (SCS Global Services) forVM0007, v1.6",
+      "url": "https://verra.org/documents/vm0007-v1-6-second-assessment-report-scs-global-services/",
+      "hash": "sha256:df19f4da57d7c17dff34b45d3144b7fc2929cd5e715ef988f9294caa6e25d977",
+      "is_current": false
+    },
+    {
+      "label": "Second Assessment Report (S&A Carbon) forVM0007, v1.6",
+      "url": "https://verra.org/documents/vm0007-v1-6-second-assessment-report-sa-carbon/",
+      "hash": "sha256:c71058de975ac3f85bbeb94c6352c51299f52cc02e521a589eeb4c9f359f8b4a",
+      "is_current": false
+    },
+    {
+      "label": "VM0007 REDD+ Methodology Framework (REDD+MF), v1.5",
+      "url": "https://verra.org/documents/vm0007-redd-methodology-framework-reddmf-v1-5/",
+      "hash": "sha256:225f741fa670d4ccb7e50d2eef7c4429c097569906a236e6b331e1c2ebd85d48",
+      "is_current": false
+    },
+    {
+      "label": "First Assessment Report for VM0007, v1.5",
+      "url": "https://verra.org/documents/vm0007-v1-5-first-assessment-report/",
+      "hash": "sha256:18b0901c3dffa46d4168c9ac5ae39cb85408f276f7dae89711653dcaddd42e57",
+      "is_current": false
+    },
+    {
+      "label": "Second Assessment Report forVM0007, v1.5",
+      "url": "https://verra.org/documents/vm0007-v1-5-second-assessment-report/",
+      "hash": "sha256:fbeced4b2b76b859c3c497fe31d66dfe8515c8b389cae71bf4e3ebbb1388a7a8",
+      "is_current": false
+    },
+    {
+      "label": "VM0007 REDD+ Methodology Framework (REDD+MF), v1.4",
+      "url": "https://verra.org/documents/vm0007-v1-4-valid-until-9-september-2015/",
+      "hash": "sha256:6ea4295de0e8b71c9c46b114fd1ed06a87e1d54f4fb994d80f0c12979a3160d9",
+      "is_current": false
+    },
+    {
+      "label": "VM0007 REDD+ Methodology Framework (REDD+MF), v1.3",
+      "url": "https://verra.org/documents/vm0007-v1-3-valid-until-3-november-2013/",
+      "hash": "sha256:a8e85f30aabd3464a73b8546175ba1f5be1864d10ef526b380e5d5a529eb4955",
+      "is_current": false
+    },
+    {
+      "label": "Methodology Review Report forVM0007, v1.3",
+      "url": "https://verra.org/documents/vm0007-v1-3-methodology-review-report/",
+      "hash": "sha256:9d0968c89e29521520e92b9f8847c68757546337b595407f8261d18bad010edf",
+      "is_current": false
+    },
+    {
+      "label": "VM0007 REDD+ Methodology Framework (REDD+MF), v1.2",
+      "url": "https://verra.org/documents/vm0007-redd-methodology-framework-reddmf-v1-2/",
+      "hash": "sha256:5e8c60f814b602e2de70d0e2468f2e13639ea500cf03ee90e7d8316b54ebd869",
+      "is_current": false
+    },
+    {
+      "label": "First Assessment Report forVM0007, v1.2",
+      "url": "https://verra.org/documents/vm0007-v1-2-first-assessment-report/",
+      "hash": "sha256:c55c428913ba6677c688606fd574134b8a6654c5a64e5475cc43a77f739f3244",
+      "is_current": false
+    },
+    {
+      "label": "Second Assessment Report forVM0007, v1.2",
+      "url": "https://verra.org/documents/vm0007-v1-2-second-assessment-report/",
+      "hash": "sha256:456e0c9dd5c8e27dbe52d98f227c9b2d18eb367a20430b9016f1a1a189c704ba",
+      "is_current": false
+    },
+    {
+      "label": "First Assessment Report forVM0007, v1.1",
+      "url": "https://verra.org/documents/vm0007-v1-1-first-assessment-report/",
+      "hash": "sha256:78e1c8e372cef2b94da32c592911b5a86520fb775a0b4ef72914658cace76351",
+      "is_current": false
+    },
+    {
+      "label": "Second Assessment Report forVM0007, v1.1",
+      "url": "https://verra.org/documents/vm0007-v1-1-second-assessment-report/",
+      "hash": "sha256:f60408e33be35365c7b5963345f7411e172652e6413a01dadefc9110983161ad",
+      "is_current": false
+    },
+    {
+      "label": "VM0007 REDD+ Methodology Framework (REDD+MF), v1.0",
+      "url": "https://verra.org/documents/vm0007-redd-methodology-framework-reddmf-v1-0/",
+      "hash": "sha256:898cc1f67537aa6826028c1cc751a166eed2a2fba3aeb3e354a8140aa6603399",
+      "is_current": false
+    },
+    {
+      "label": "First Assessment Report forVM0007, v1.0",
+      "url": "https://verra.org/documents/vm0007-v1-0-first-assessment-report/",
+      "hash": "sha256:66c45dc5fcd698fb23adaadc22476002797125efaf7a91e7daae548559fcedc9",
+      "is_current": false
+    },
+    {
+      "label": "Second Assessment Report forVM0007, v1.0",
+      "url": "https://verra.org/documents/vm0007-v1-0-second-assessment-report/",
+      "hash": "sha256:6bad5ad27853fc5a1023b0e14e4f97e2b0194b56b653e23945787d0a7a6ee3b7",
+      "is_current": false
+    },
+    {
+      "label": "Guidance Document: Avoided Deforestation Partners VCS REDD Methodology Modules (VM0007, v1.0)",
+      "url": "https://verra.org/documents/guidance-document-avoided-deforestation-partners-vcs-redd-methodology-modules-vm0007-v1-0/",
+      "hash": "sha256:9b3b70f89547d91c6e326c4cb28a5b698226fd116789858bed4e2705f4baee5c",
+      "is_current": false
+    }
+  ],
+  "last_synced": "2026-04-01T17:00:52.383122+00:00"
+}

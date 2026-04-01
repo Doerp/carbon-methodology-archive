@@ -1,0 +1,62 @@
+{
+  "id": "VM0042",
+  "registry": "verra",
+  "page_url": "https://verra.org/methodologies/vm0042-improved-agricultural-land-management-v2-2/",
+  "versions": [
+    {
+      "label": "Clarification toVM0042, v1.0",
+      "url": "https://verra.org/documents/clarification-to-vm0042-methodology-for-improved-agricultural-land-management-v1-0/",
+      "hash": "sha256:ad75fe579026b14c29d4c431b0c8260db1d4b71b23b1a1646cabec3ce20f1e6d",
+      "is_current": true
+    },
+    {
+      "label": "VM0042 Improved Agricultural Land Management, v2.2– Greenlined",
+      "url": "https://verra.org/documents/vm0042-improved-agricultural-land-management-greenlined-v2-2/",
+      "hash": "sha256:3f51868afe327da83c453cc3587adf2a578b9dbcd25decfb2c63b506be7a3520",
+      "is_current": false
+    },
+    {
+      "label": "VM0042 Improved Agricultural Land Management, v2.1",
+      "url": "https://verra.org/documents/vm0042-improved-agricultural-land-management-v2-1/",
+      "hash": "sha256:f6b9d26edb95fe7a73c7df36434a64ad0848de7a0fed695d5ab20c3759507b9f",
+      "is_current": false
+    },
+    {
+      "label": "VM0042, v2.1Draft Methodology",
+      "url": "https://verra.org/documents/vm0042-improved-alm-v2-1_draft/",
+      "hash": "sha256:507a26c0a2f710d312481c59b89cac9e7f247701a7a2d2b6e4370a416aaa38fc",
+      "is_current": false
+    },
+    {
+      "label": "Summary of Public Comments forVM0042, v2.1",
+      "url": "https://verra.org/documents/summary-of-public-comments-for-vm0042-v2-1/",
+      "hash": "sha256:afc3e1fb793c172905edcfb3fbb87a395cf7683243bf83df46958c7c42f49bb4",
+      "is_current": false
+    },
+    {
+      "label": "Corrections and Clarifications toVM0042, v2.0",
+      "url": "https://verra.org/documents/corrections-and-clarifications-to-vm0042-v2-0/",
+      "hash": "sha256:e552f59cdc22f0e6bfc612d65ae614cfa11fc1c98f9808f39670b2d5ac09bf9f",
+      "is_current": false
+    },
+    {
+      "label": "Corrections and Clarifications toVM0042, v2.0– Greenlined",
+      "url": "https://verra.org/documents/corrections-and-clarifications-to-vm0042-v2-0-greenlined/",
+      "hash": "sha256:4b99793e1890364e072d29f49f0cfd14c804c23b8f0edfa7d564e0f3b41e3284",
+      "is_current": false
+    },
+    {
+      "label": "Clarification toVM0042, v1.0",
+      "url": "https://verra.org/documents/clarification-to-vm0042-methodology-for-improved-agricultural-land-management-v1-0/",
+      "hash": "sha256:ad75fe579026b14c29d4c431b0c8260db1d4b71b23b1a1646cabec3ce20f1e6d",
+      "is_current": false
+    },
+    {
+      "label": "VM0042, v1.0inclusive of Clarification issued January 23, 2026",
+      "url": "https://verra.org/documents/vm0042-v1-0-inclusive-of-clarification/",
+      "hash": "sha256:8ec0693641b3d937a258a190f14d5619b8e9e5e0a2499612fb0d0002cf02bc29",
+      "is_current": false
+    }
+  ],
+  "last_synced": "2026-04-01T17:01:51.720855+00:00"
+}

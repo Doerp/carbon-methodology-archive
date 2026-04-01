@@ -1,0 +1,68 @@
+{
+  "id": "VM0047",
+  "registry": "verra",
+  "page_url": "https://verra.org/methodologies/vm0047-afforestation-reforestation-and-revegetation-v1-1/",
+  "versions": [
+    {
+      "label": "Download",
+      "url": "https://verra.org/documents/vm0047-afforestation-reforestation-and-revegetation-v1-1/",
+      "hash": "sha256:2fdccb9764a0b06283e974142d0ff250910f81686dc53bcc197f6cf90d53de3d",
+      "is_current": true
+    },
+    {
+      "label": "Corrections and clarifications to VM0047, v1.0",
+      "url": "https://verra.org/documents/corrections-and-clarifications-to-vm0047-afforestation-reforestation-and-revegetation-v1-0/",
+      "hash": "sha256:8ba0a75277ad4dfea15696fdfc4221bc9c1f0eb5b2e1adf80a52455668d266f7",
+      "is_current": false
+    },
+    {
+      "label": "VM0047 Afforestation, Reforestation, and Revegetation, v1.0 – Greenlined",
+      "url": "https://verra.org/documents/corrections-and-clarifications-to-vm0047-afforestation-reforestation-and-revegetation-v1-0-greenlined/",
+      "hash": "sha256:6e3be1dc6cd431d463e24df6a563fea5b2c9880828a72138895e4b00ce3a9d7a",
+      "is_current": false
+    },
+    {
+      "label": "VM0047 v1.1 – Draft Methodology_Greenlined",
+      "url": "https://verra.org/documents/vm0047-minor-revision-v1-1_greenlined/",
+      "hash": "sha256:4342891724891a6e30727d2c2c76fe22b966176a1fa7444f41f2336c12d9533a",
+      "is_current": false
+    },
+    {
+      "label": "VM0047, v1.1 – Summary of Public Consultation",
+      "url": "https://verra.org/documents/vm0047-v1-1-summary-of-public-consultation/",
+      "hash": "sha256:833d966df5c20ade3dae53cf11e81b4b860c096f3e01101d36293561971f2c4d",
+      "is_current": false
+    },
+    {
+      "label": "VM0047 Methodology for Afforestation, Reforestation, and Revegetation, v1.0",
+      "url": "https://verra.org/documents/vm0047-arr-v1-0/",
+      "hash": "sha256:987f86d4e7f8aa939875dbf6a1376287444531954f7573b3b46fe0e07919ded6",
+      "is_current": false
+    },
+    {
+      "label": "Summary of Public Consultation for VM0047, v1.0",
+      "url": "https://verra.org/documents/vm0047-summary-of-public-consultation/",
+      "hash": "sha256:53c401b5e5182bca9da679b5ffec9cc2ad8a15e5e0b6fa57162541cae6f53c60",
+      "is_current": false
+    },
+    {
+      "label": "VVB Assessment Report forVM0047, v1.0",
+      "url": "https://verra.org/documents/vm0047-methodology-for-afforestation-reforestation-and-revegetation-assessment-report-v4-1/",
+      "hash": "sha256:af8a7b28a47663daa665e2262584d7cc37793c3bd8f2e16a01c13f7c5410887d",
+      "is_current": false
+    },
+    {
+      "label": "Corrections and clarifications toVM0047, v1.0",
+      "url": "https://verra.org/documents/corrections-and-clarifications-to-vm0047-afforestation-reforestation-and-revegetation-v1-0/",
+      "hash": "sha256:8ba0a75277ad4dfea15696fdfc4221bc9c1f0eb5b2e1adf80a52455668d266f7",
+      "is_current": false
+    },
+    {
+      "label": "VM0047 Afforestation, Reforestation, and Revegetation, v1.0 – Greenlined",
+      "url": "https://verra.org/documents/corrections-and-clarifications-to-vm0047-afforestation-reforestation-and-revegetation-v1-0-greenlined/",
+      "hash": "sha256:6e3be1dc6cd431d463e24df6a563fea5b2c9880828a72138895e4b00ce3a9d7a",
+      "is_current": false
+    }
+  ],
+  "last_synced": "2026-04-01T17:02:45.903155+00:00"
+}

@@ -12,8 +12,8 @@ from .base import BaseScraper
 # v1 demo: three representative methodologies (expanded to full scrape in v2)
 DEMO_METHODOLOGY_URLS = [
     "https://verra.org/methodologies/vm0007-redd-methodology-framework-redd-mf-v1-8/",
-    "https://verra.org/methodologies/vm0042-methodology-for-improved-cook-stoves-and-kitchen-regimes-v2-0/",
-    "https://verra.org/methodologies/vm0047-afforestation-reforestation-and-revegetation-v1-0/",
+    "https://verra.org/methodologies/vm0042-improved-agricultural-land-management-v2-2/",
+    "https://verra.org/methodologies/vm0047-afforestation-reforestation-and-revegetation-v1-1/",
 ]
 
 
