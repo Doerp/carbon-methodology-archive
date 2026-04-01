@@ -9,3 +9,11 @@ build/
 .DS_Store
 .env
 .changes.json
+
+# Scraper code — maintained in private repo
+scrapers/
+scripts/
+tests/
+pyproject.toml
+pyrightconfig.json
+.github/

@@ -65,15 +65,6 @@ A GitHub Actions workflow runs on the 1st of every month:
 
 Trigger a manual sync anytime: **Actions → Monthly Methodology Sync → Run workflow**
 
-## Running the scraper locally
-
-```bash
-git clone https://github.com/Doerp/carbon-methodology-archive
-cd carbon-methodology-archive
-pip install -e .
-python scripts/run_sync.py
-```
-
 ## Roadmap
 
 - [ ] Expand to full Verra methodology index (~200 methodologies)
