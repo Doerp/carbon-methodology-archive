@@ -7,5 +7,6 @@
     "scripts",
     "tests"
   ],
+  "extraPaths": ["."],
   "reportMissingImports": "warning"
 }
