@@ -72,6 +72,7 @@ class IsometricScraper(BaseScraper):
             content_path.write_text(content, encoding="utf-8")
             changed.append("content")
 
+        # Always update metadata even when content is unchanged, so current_hash stays current
         metadata.update(
             {
                 "id": slug,

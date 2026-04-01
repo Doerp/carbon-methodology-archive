@@ -1,3 +1,4 @@
+import json
 import httpx
 import respx
 from scrapers.isometric import IsometricScraper
@@ -60,7 +61,6 @@ def test_sync_protocol_saves_markdown_file(tmp_path):
     assert content_path.exists()
     assert "Biochar Production" in content_path.read_text()
 
-    import json
     metadata = json.loads((tmp_path / "methodologies" / "isometric" / "biochar" / "metadata.json").read_text())
     assert metadata["id"] == "biochar"
     assert metadata["registry"] == "isometric"
