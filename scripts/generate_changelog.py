@@ -20,7 +20,10 @@ def generate_entry(
 ) -> str:
     """Call Claude to write a concise CHANGELOG entry for the given changes."""
     if client is None:
-        client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+        api_key = os.environ.get("ANTHROPIC_API_KEY")
+        if not api_key:
+            raise ValueError("ANTHROPIC_API_KEY environment variable is not set")
+        client = anthropic.Anthropic(api_key=api_key)
 
     message = client.messages.create(
         model="claude-opus-4-6",

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from datetime import datetime, timezone
 from pathlib import Path
 
 import markdownify
@@ -80,6 +81,7 @@ class IsometricScraper(BaseScraper):
                 "version": version,
                 "current_hash": new_hash,
                 "protocol_url": self.protocol_url(slug, version),
+                "last_synced": datetime.now(timezone.utc).isoformat(),
             }
         )
         self.save_metadata(metadata_path, metadata)
