@@ -6,7 +6,7 @@ import React from "react";
 import { parseContent } from "@/lib/renderContent";
 
 const REF_PATTERN =
-  /\b((?:Module\s+)?(?:BL-[A-Z]+|M-[A-Z+]+|[A-Z]{2,}-[A-Z]+)|(?:Equation|Table|Figure|Appendix)\s+\d+(?:[.-]\d+)*)\b/g;
+  /\b(VMD\d{4,5}|VT\d{4,5}|VM\d{4,5}|(?:Module\s+)?(?:BL-[A-Z]+|M-[A-Z+]+|[A-Z]{2,}-[A-Z\d]+)|Equations?\s*\(\d+(?:[.-]\d+)*\)|Eq\.\s*\d+(?:[.-]\d+)*|(?:Equation|Table|Figure|Appendix)\s+\d+(?:[.-]\d+)*|Box\s+\d+|Quantification\s+Approach\s+\d+)\b/g;
 
 export function inlineWithRefs(
   text: string,
@@ -19,7 +19,9 @@ export function inlineWithRefs(
   REF_PATTERN.lastIndex = 0;
   while ((match = REF_PATTERN.exec(text)) !== null) {
     if (match.index > lastIndex) parts.push(text.slice(lastIndex, match.index));
-    const normalized = match[0].replace(/^Module\s+/, "");
+    const normalized = match[0]
+      .replace(/^Module\s+/, "")
+      .replace(/^Equations\b/, "Equation");
     const active = openRef === normalized;
     parts.push(
       <button
